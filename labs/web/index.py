@@ -19,6 +19,7 @@ def index(request):
             for project in get_github_repositories(user):
                 projects['#projects'].append({'#project':
                     {'#project_title': unicode(project[0]),
+                     '#project_maintainer': u'Maintained by %s' % user,
                      '#project_link/href': u'http://www.github.com/%s/%s' % (user, project[0]),
                      '#project_desc': unicode(project[1])}})
         cache.set('above_labs_projects', projects)

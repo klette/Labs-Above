@@ -9,6 +9,7 @@
   <h3 t:id="project_title" />
   <p t:id="project_desc" />
   <a t:id="project_link">Fork me at GitHub</a>
+  <span class="maintainer" t:id="project_maintainer" />
   </li>
 </ul>
 </div>
