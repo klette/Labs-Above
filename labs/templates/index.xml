@@ -1,0 +1,28 @@
+<t:dummy xmlns:t="http://template.sesse.net/">
+<h1>Above Labs</h1>
+<div id="container">
+
+<div id="projects">
+<h2>Projects</h2>
+<ul t:id="projects">
+  <li t:id="project">
+  <h3 t:id="project_title" />
+  <p t:id="project_desc" />
+  <a t:id="project_link">Fork me at GitHub</a>
+  </li>
+</ul>
+</div>
+
+<div id="people">
+<h2>People</h2>
+<ul>
+   <li>Kristian Klette <a href="http://www.klette.us">(blog)</a></li>
+   <li>Stein Magnus Jodal <a href="http://www.jodal.no">(homepage)</a></li>
+   <li>Thomas Adamcik <a href="http://www.adamcik.no">(homepage)</a></li>
+   <li>Morten Minde Neergaard <a href="http://www.akuma.no">(blog)</a></li>
+</ul>
+</div>
+
+</div>
+
+</t:dummy>
