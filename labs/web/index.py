@@ -15,7 +15,7 @@ def index(request):
     projects = None #cache.get('above_labs_projects')
     if not projects:
         projects = {'#projects': [], 'title': 'Above Labs'}
-        for user in ['klette', 'jodal', 'adamcik', 'xim', 'frsk', 'eide']:
+        for user in ['klette', 'jodal', 'adamcik', 'xim', 'frsk', 'eide', 'jorabra']:
             for project in get_github_repositories(user):
                 projects['#projects'].append({'#project':
                     {'#project_title': unicode(project[0]),
