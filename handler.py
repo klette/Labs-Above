@@ -12,4 +12,5 @@ import labs.web.index
 
 if __name__ == '__main__':
     from pyroutes import utils
+    route('/media')(utils.fileserver)
     utils.devserver(application)
