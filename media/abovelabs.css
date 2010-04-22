@@ -1,0 +1,41 @@
+html {
+    margin: 2em;
+}
+body {
+    font-family: verdana;
+    text-align: left;
+}
+h1, h2, h3 {
+    font-family: georgia;
+    padding: 1em 0 0.2em;
+}
+h1 {
+    border-bottom: 10px solid #ccc;
+    font-size: 197%;
+}
+h2 {
+    font-size: 182%;
+}
+h3 {
+    font-size: 138.5%;
+}
+a {
+    color: red;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#projects, #people {
+    float: left;
+    padding-bottom: 2em;
+    padding-right: 5%;
+    width: 45%;
+}
+#people ul {
+    margin-top: 1.5em;
+}
+#people ul li {
+    list-style: square inside;
+    padding: 0.5em;
+    padding-left: 1em;
+}
