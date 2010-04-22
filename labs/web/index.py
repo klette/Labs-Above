@@ -14,7 +14,7 @@ tr = TemplateRenderer("labs/templates/base.xml")
 def index(request):
     projects = None #cache.get('above_labs_projects')
     if not projects:
-        projects = {'#projects': [], 'title': 'Above Labs'}
+        projects = {'#projects': [], 'title': 'Labs Above'}
         for user in ['klette', 'jodal', 'adamcik', 'xim', 'frsk', 'eide', 'jorabra']:
             for project in get_github_repositories(user):
                 projects['#projects'].append({'#project':
